@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0058)file:///home/ayk/Downloads/finding_donors-bench%20(2).html -->
+<!-- saved from url=(0052)file:///home/ayk/Downloads/finding_donors%20(1).html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>finding_donors-bench</title><script src="./finding_donors_files/require.min.js"></script>
+<title>finding_donors</title><script src="./finding_donors_files/require.min.js"></script>
 <script src="./finding_donors_files/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11895,7 +11895,7 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Scientist-Nanodegree">Data Scientist Nanodegree<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Data-Scientist-Nanodegree">¶</a></h1><h2 id="Supervised-Learning">Supervised Learning<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Supervised-Learning">¶</a></h2><h2 id="Project:-Finding-Donors-for-CharityML">Project: Finding Donors for <em>CharityML</em><a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Project:-Finding-Donors-for-CharityML">¶</a></h2>
+<h1 id="Data-Scientist-Nanodegree">Data Scientist Nanodegree<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Data-Scientist-Nanodegree">¶</a></h1><h2 id="Supervised-Learning">Supervised Learning<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Supervised-Learning">¶</a></h2><h2 id="Project:-Finding-Donors-for-CharityML">Project: Finding Donors for <em>CharityML</em><a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Project:-Finding-Donors-for-CharityML">¶</a></h2>
 </div>
 </div>
 </div>
@@ -11915,7 +11915,7 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Getting-Started">Getting Started<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Getting-Started">¶</a></h2><p>In this project, you will employ several supervised algorithms of your choice to accurately model individuals' income using data collected from the 1994 U.S. Census. You will then choose the best candidate algorithm from preliminary results and further optimize this algorithm to best model the data. Your goal with this implementation is to construct a model that accurately predicts whether an individual makes more than $50,000. This sort of task can arise in a non-profit setting, where organizations survive on donations.  Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with.  While it can be difficult to determine an individual's general income bracket directly from public sources, we can (as we will see) infer this value from other publically available features.</p>
+<h2 id="Getting-Started">Getting Started<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Getting-Started">¶</a></h2><p>In this project, you will employ several supervised algorithms of your choice to accurately model individuals' income using data collected from the 1994 U.S. Census. You will then choose the best candidate algorithm from preliminary results and further optimize this algorithm to best model the data. Your goal with this implementation is to construct a model that accurately predicts whether an individual makes more than $50,000. This sort of task can arise in a non-profit setting, where organizations survive on donations.  Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with.  While it can be difficult to determine an individual's general income bracket directly from public sources, we can (as we will see) infer this value from other publically available features.</p>
 <p>The dataset for this project originates from the <a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">UCI Machine Learning Repository</a>. The datset was donated by Ron Kohavi and Barry Becker, after being published in the article <em>"Scaling Up the Accuracy of Naive-Bayes Classifiers: A Decision-Tree Hybrid"</em>. You can find the article by Ron Kohavi <a href="https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf">online</a>. The data we investigate here consists of small changes to the original dataset, such as removing the <code>'fnlwgt'</code> feature and records with missing or ill-formatted entries.</p>
 
 </div>
@@ -11926,7 +11926,7 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h2 id="Exploring-the-Data">Exploring the Data<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Exploring-the-Data">¶</a></h2><p>Run the code cell below to load necessary Python libraries and load the census data. Note that the last column from this dataset, <code>'income'</code>, will be our target label (whether an individual makes more than, or at most, $50,000 annually). All other columns are features about each individual in the census database.</p>
+<h2 id="Exploring-the-Data">Exploring the Data<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Exploring-the-Data">¶</a></h2><p>Run the code cell below to load necessary Python libraries and load the census data. Note that the last column from this dataset, <code>'income'</code>, will be our target label (whether an individual makes more than, or at most, $50,000 annually). All other columns are features about each individual in the census database.</p>
 
 </div>
 </div>
@@ -12105,7 +12105,7 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation:-Data-Exploration">Implementation: Data Exploration<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Implementation:-Data-Exploration">¶</a></h3><p>A cursory investigation of the dataset will determine how many individuals fit into either group, and will tell us about the percentage of these individuals making more than <span>$</span>50,000. In the code cell below, you will need to compute the following:</p>
+<h3 id="Implementation:-Data-Exploration">Implementation: Data Exploration<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Implementation:-Data-Exploration">¶</a></h3><p>A cursory investigation of the dataset will determine how many individuals fit into either group, and will tell us about the percentage of these individuals making more than <span>$</span>50,000. In the code cell below, you will need to compute the following:</p>
 <ul>
 <li>The total number of records, <code>'n_records'</code></li>
 <li>The number of individuals making more than <span>$</span>50,000 annually, <code>'n_greater_50k'</code>.</li>
@@ -12196,7 +12196,7 @@ Percentage of individuals making more than $50,000: 24.784%
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h2 id="Preparing-the-Data">Preparing the Data<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Preparing-the-Data">¶</a></h2><p>Before data can be used as input for machine learning algorithms, it often must be cleaned, formatted, and restructured — this is typically known as <strong>preprocessing</strong>. Fortunately, for this dataset, there are no invalid or missing entries we must deal with, however, there are some qualities about certain features that must be adjusted. This preprocessing can help tremendously with the outcome and predictive power of nearly all learning algorithms.</p>
+<h2 id="Preparing-the-Data">Preparing the Data<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Preparing-the-Data">¶</a></h2><p>Before data can be used as input for machine learning algorithms, it often must be cleaned, formatted, and restructured — this is typically known as <strong>preprocessing</strong>. Fortunately, for this dataset, there are no invalid or missing entries we must deal with, however, there are some qualities about certain features that must be adjusted. This preprocessing can help tremendously with the outcome and predictive power of nearly all learning algorithms.</p>
 
 </div>
 </div>
@@ -12205,7 +12205,7 @@ Percentage of individuals making more than $50,000: 24.784%
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Transforming-Skewed-Continuous-Features">Transforming Skewed Continuous Features<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Transforming-Skewed-Continuous-Features">¶</a></h3><p>A dataset may sometimes contain at least one feature whose values tend to lie near a single number, but will also have a non-trivial number of vastly larger or smaller values than that single number.  Algorithms can be sensitive to such distributions of values and can underperform if the range is not properly normalized. With the census dataset two features fit this description: '<code>capital-gain'</code> and <code>'capital-loss'</code>.</p>
+<h3 id="Transforming-Skewed-Continuous-Features">Transforming Skewed Continuous Features<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Transforming-Skewed-Continuous-Features">¶</a></h3><p>A dataset may sometimes contain at least one feature whose values tend to lie near a single number, but will also have a non-trivial number of vastly larger or smaller values than that single number.  Algorithms can be sensitive to such distributions of values and can underperform if the range is not properly normalized. With the census dataset two features fit this description: '<code>capital-gain'</code> and <code>'capital-loss'</code>.</p>
 <p>Run the code cell below to plot a histogram of these two features. Note the range of the values present and how they are distributed.</p>
 
 </div>
@@ -12302,7 +12302,7 @@ Percentage of individuals making more than $50,000: 24.784%
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Normalizing-Numerical-Features">Normalizing Numerical Features<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Normalizing-Numerical-Features">¶</a></h3><p>In addition to performing transformations on features that are highly skewed, it is often good practice to perform some type of scaling on numerical features. Applying a scaling to the data does not change the shape of each feature's distribution (such as <code>'capital-gain'</code> or <code>'capital-loss'</code> above); however, normalization ensures that each feature is treated equally when applying supervised learners. Note that once scaling is applied, observing the data in its raw form will no longer have the same original meaning, as exampled below.</p>
+<h3 id="Normalizing-Numerical-Features">Normalizing Numerical Features<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Normalizing-Numerical-Features">¶</a></h3><p>In addition to performing transformations on features that are highly skewed, it is often good practice to perform some type of scaling on numerical features. Applying a scaling to the data does not change the shape of each feature's distribution (such as <code>'capital-gain'</code> or <code>'capital-loss'</code> above); however, normalization ensures that each feature is treated equally when applying supervised learners. Note that once scaling is applied, observing the data in its raw form will no longer have the same original meaning, as exampled below.</p>
 <p>Run the code cell below to normalize each numerical feature. We will use <a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html"><code>sklearn.preprocessing.MinMaxScaler</code></a> for this.</p>
 
 </div>
@@ -12471,7 +12471,7 @@ Percentage of individuals making more than $50,000: 24.784%
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation:-Data-Preprocessing">Implementation: Data Preprocessing<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Implementation:-Data-Preprocessing">¶</a></h3><p>From the table in <strong>Exploring the Data</strong> above, we can see there are several features for each record that are non-numeric. Typically, learning algorithms expect input to be numeric, which requires that non-numeric features (called <em>categorical variables</em>) be converted. One popular way to convert categorical variables is by using the <strong>one-hot encoding</strong> scheme. One-hot encoding creates a <em>"dummy"</em> variable for each possible category of each non-numeric feature. For example, assume <code>someFeature</code> has three possible entries: <code>A</code>, <code>B</code>, or <code>C</code>. We then encode this feature into <code>someFeature_A</code>, <code>someFeature_B</code> and <code>someFeature_C</code>.</p>
+<h3 id="Implementation:-Data-Preprocessing">Implementation: Data Preprocessing<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Implementation:-Data-Preprocessing">¶</a></h3><p>From the table in <strong>Exploring the Data</strong> above, we can see there are several features for each record that are non-numeric. Typically, learning algorithms expect input to be numeric, which requires that non-numeric features (called <em>categorical variables</em>) be converted. One popular way to convert categorical variables is by using the <strong>one-hot encoding</strong> scheme. One-hot encoding creates a <em>"dummy"</em> variable for each possible category of each non-numeric feature. For example, assume <code>someFeature</code> has three possible entries: <code>A</code>, <code>B</code>, or <code>C</code>. We then encode this feature into <code>someFeature_A</code>, <code>someFeature_B</code> and <code>someFeature_C</code>.</p>
 <table>
 <thead><tr>
 <th style="text-align:center"></th>
@@ -12576,7 +12576,7 @@ Percentage of individuals making more than $50,000: 24.784%
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Shuffle-and-Split-Data">Shuffle and Split Data<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Shuffle-and-Split-Data">¶</a></h3><p>Now all <em>categorical variables</em> have been converted into numerical features, and all numerical features have been normalized. As always, we will now split the data (both features and their labels) into training and test sets. 80% of the data will be used for training and 20% for testing.</p>
+<h3 id="Shuffle-and-Split-Data">Shuffle and Split Data<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Shuffle-and-Split-Data">¶</a></h3><p>Now all <em>categorical variables</em> have been converted into numerical features, and all numerical features have been normalized. As always, we will now split the data (both features and their labels) into training and test sets. 80% of the data will be used for training and 20% for testing.</p>
 <p>Run the code cell below to perform this split.</p>
 
 </div>
@@ -12631,7 +12631,7 @@ Testing set has 9045 samples.
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h2 id="Evaluating-Model-Performance">Evaluating Model Performance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Evaluating-Model-Performance">¶</a></h2><p>In this section, we will investigate four different algorithms, and determine which is best at modeling the data. Three of these algorithms will be supervised learners of your choice, and the fourth algorithm is known as a <em>naive predictor</em>.</p>
+<h2 id="Evaluating-Model-Performance">Evaluating Model Performance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Evaluating-Model-Performance">¶</a></h2><p>In this section, we will investigate four different algorithms, and determine which is best at modeling the data. Three of these algorithms will be supervised learners of your choice, and the fourth algorithm is known as a <em>naive predictor</em>.</p>
 
 </div>
 </div>
@@ -12640,11 +12640,11 @@ Testing set has 9045 samples.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Metrics-and-the-Naive-Predictor">Metrics and the Naive Predictor<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Metrics-and-the-Naive-Predictor">¶</a></h3><p><em>CharityML</em>, equipped with their research, knows individuals that make more than <span>$</span>50,000 are most likely to donate to their charity. Because of this, *CharityML* is particularly interested in predicting who makes more than <span>$</span>50,000 accurately. It would seem that using <strong>accuracy</strong> as a metric for evaluating a particular model's performace would be appropriate. Additionally, identifying someone that <em>does not</em> make more than <span>$</span>50,000 as someone who does would be detrimental to *CharityML*, since they are looking to find individuals willing to donate. Therefore, a model's ability to precisely predict those that make more than <span>$</span>50,000 is <em>more important</em> than the model's ability to <strong>recall</strong> those individuals. We can use <strong>F-beta score</strong> as a metric that considers both precision and recall:</p>
+<h3 id="Metrics-and-the-Naive-Predictor">Metrics and the Naive Predictor<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Metrics-and-the-Naive-Predictor">¶</a></h3><p><em>CharityML</em>, equipped with their research, knows individuals that make more than <span>$</span>50,000 are most likely to donate to their charity. Because of this, *CharityML* is particularly interested in predicting who makes more than <span>$</span>50,000 accurately. It would seem that using <strong>accuracy</strong> as a metric for evaluating a particular model's performace would be appropriate. Additionally, identifying someone that <em>does not</em> make more than <span>$</span>50,000 as someone who does would be detrimental to *CharityML*, since they are looking to find individuals willing to donate. Therefore, a model's ability to precisely predict those that make more than <span>$</span>50,000 is <em>more important</em> than the model's ability to <strong>recall</strong> those individuals. We can use <strong>F-beta score</strong> as a metric that considers both precision and recall:</p>
 <p><span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;msub&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x22C5;&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;&amp;#x22C5;&lt;/mo&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;mo&gt;(&lt;/mo&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;&amp;#x22C5;&lt;/mo&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;mo&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/math&gt;" role="presentation" style="text-align: center; position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 21.431em; display: inline-block;"><span style="display: inline-block; position: relative; width: 17.567em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.232em 1017.57em 3.926em -999.997em); top: -2.749em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="msubsup" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 1.115em; height: 0px;"><span style="position: absolute; clip: rect(3.106em 1000.76em 4.16em -999.997em); top: -3.978em; left: 0em;"><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math; font-style: italic;">F<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.12em;"></span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; top: -3.803em; left: 0.647em;"><span class="texatom" id="MathJax-Span-5"><span class="mrow" id="MathJax-Span-6"><span class="mi" id="MathJax-Span-7" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span></span><span class="mo" id="MathJax-Span-8" style="font-family: MathJax_Main; padding-left: 0.296em;">=</span><span class="mo" id="MathJax-Span-9" style="font-family: MathJax_Main; padding-left: 0.296em;">(</span><span class="mn" id="MathJax-Span-10" style="font-family: MathJax_Main;">1</span><span class="mo" id="MathJax-Span-11" style="font-family: MathJax_Main; padding-left: 0.237em;">+</span><span class="msubsup" id="MathJax-Span-12" style="padding-left: 0.237em;"><span style="display: inline-block; position: relative; width: 1.057em; height: 0px;"><span style="position: absolute; clip: rect(3.106em 1000.59em 4.335em -999.997em); top: -3.978em; left: 0em;"><span class="mi" id="MathJax-Span-13" style="font-family: MathJax_Math; font-style: italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; top: -4.388em; left: 0.647em;"><span class="mn" id="MathJax-Span-14" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span></span><span class="mo" id="MathJax-Span-15" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-16" style="font-family: MathJax_Main; padding-left: 0.237em;">⋅</span><span class="mfrac" id="MathJax-Span-17" style="padding-left: 0.237em;"><span style="display: inline-block; position: relative; width: 10.542em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.106em 1007.32em 4.335em -999.997em); top: -4.681em; left: 50%; margin-left: -3.686em;"><span class="mrow" id="MathJax-Span-18"><span class="mi" id="MathJax-Span-19" style="font-family: MathJax_Math; font-style: italic;">p</span><span class="mi" id="MathJax-Span-20" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mi" id="MathJax-Span-21" style="font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-22" style="font-family: MathJax_Math; font-style: italic;">c</span><span class="mi" id="MathJax-Span-23" style="font-family: MathJax_Math; font-style: italic;">i</span><span class="mi" id="MathJax-Span-24" style="font-family: MathJax_Math; font-style: italic;">s</span><span class="mi" id="MathJax-Span-25" style="font-family: MathJax_Math; font-style: italic;">i</span><span class="mi" id="MathJax-Span-26" style="font-family: MathJax_Math; font-style: italic;">o</span><span class="mi" id="MathJax-Span-27" style="font-family: MathJax_Math; font-style: italic;">n</span><span class="mo" id="MathJax-Span-28" style="font-family: MathJax_Main; padding-left: 0.237em;">⋅</span><span class="mi" id="MathJax-Span-29" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.237em;">r</span><span class="mi" id="MathJax-Span-30" style="font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-31" style="font-family: MathJax_Math; font-style: italic;">c</span><span class="mi" id="MathJax-Span-32" style="font-family: MathJax_Math; font-style: italic;">a</span><span class="mi" id="MathJax-Span-33" style="font-family: MathJax_Math; font-style: italic;">l</span><span class="mi" id="MathJax-Span-34" style="font-family: MathJax_Math; font-style: italic;">l</span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; clip: rect(3.047em 1010.37em 4.394em -999.997em); top: -3.217em; left: 50%; margin-left: -5.208em;"><span class="mrow" id="MathJax-Span-35"><span class="mrow" id="MathJax-Span-36"><span class="mo" id="MathJax-Span-37" style=""><span style="font-family: MathJax_Main;">(</span></span><span class="mrow" id="MathJax-Span-38"><span class="msubsup" id="MathJax-Span-39"><span style="display: inline-block; position: relative; width: 1.057em; height: 0px;"><span style="position: absolute; clip: rect(3.106em 1000.59em 4.335em -999.997em); top: -3.978em; left: 0em;"><span class="mi" id="MathJax-Span-40" style="font-family: MathJax_Math; font-style: italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; top: -4.271em; left: 0.647em;"><span class="mn" id="MathJax-Span-41" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span></span><span class="mo" id="MathJax-Span-42" style="font-family: MathJax_Main; padding-left: 0.237em;">⋅</span><span class="mi" id="MathJax-Span-43" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.237em;">p</span><span class="mi" id="MathJax-Span-44" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mi" id="MathJax-Span-45" style="font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-46" style="font-family: MathJax_Math; font-style: italic;">c</span><span class="mi" id="MathJax-Span-47" style="font-family: MathJax_Math; font-style: italic;">i</span><span class="mi" id="MathJax-Span-48" style="font-family: MathJax_Math; font-style: italic;">s</span><span class="mi" id="MathJax-Span-49" style="font-family: MathJax_Math; font-style: italic;">i</span><span class="mi" id="MathJax-Span-50" style="font-family: MathJax_Math; font-style: italic;">o</span><span class="mi" id="MathJax-Span-51" style="font-family: MathJax_Math; font-style: italic;">n</span></span><span class="mo" id="MathJax-Span-52" style=""><span style="font-family: MathJax_Main;">)</span></span></span><span class="mo" id="MathJax-Span-53" style="font-family: MathJax_Main; padding-left: 0.237em;">+</span><span class="mi" id="MathJax-Span-54" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.237em;">r</span><span class="mi" id="MathJax-Span-55" style="font-family: MathJax_Math; font-style: italic;">e</span><span class="mi" id="MathJax-Span-56" style="font-family: MathJax_Math; font-style: italic;">c</span><span class="mi" id="MathJax-Span-57" style="font-family: MathJax_Math; font-style: italic;">a</span><span class="mi" id="MathJax-Span-58" style="font-family: MathJax_Math; font-style: italic;">l</span><span class="mi" id="MathJax-Span-59" style="font-family: MathJax_Math; font-style: italic;">l</span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; clip: rect(0.823em 1010.54em 1.232em -999.997em); top: -1.285em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 10.542em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.057em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.755em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.282em; border-left: 0px solid; width: 0px; height: 3.004em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>F</mi><mrow class="MJX-TeXAtom-ORD"><mi>β</mi></mrow></msub><mo>=</mo><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><msup><mi>β</mi><mn>2</mn></msup><mo stretchy="false">)</mo><mo>⋅</mo><mfrac><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>c</mi><mi>i</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo>⋅</mo><mi>r</mi><mi>e</mi><mi>c</mi><mi>a</mi><mi>l</mi><mi>l</mi></mrow><mrow><mrow><mo>(</mo><mrow><msup><mi>β</mi><mn>2</mn></msup><mo>⋅</mo><mi>p</mi><mi>r</mi><mi>e</mi><mi>c</mi><mi>i</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow><mo>)</mo></mrow><mo>+</mo><mi>r</mi><mi>e</mi><mi>c</mi><mi>a</mi><mi>l</mi><mi>l</mi></mrow></mfrac></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1"> F_{\beta} = (1 + \beta^2) \cdot \frac{precision \cdot recall}{\left( \beta^2 \cdot precision \right) + recall} </script></p>
 <p>In particular, when <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0.5&lt;/mn&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-60" style="width: 3.926em; display: inline-block;"><span style="display: inline-block; position: relative; width: 3.223em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.876em 1003.16em 3.106em -999.997em); top: -2.749em; left: 0em;"><span class="mrow" id="MathJax-Span-61"><span class="mi" id="MathJax-Span-62" style="font-family: MathJax_Math; font-style: italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-63" style="font-family: MathJax_Main; padding-left: 0.296em;">=</span><span class="mn" id="MathJax-Span-64" style="font-family: MathJax_Main; padding-left: 0.296em;">0.5</span></span><span style="display: inline-block; width: 0px; height: 2.755em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.218em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi><mo>=</mo><mn>0.5</mn></math></span></span><script type="math/tex" id="MathJax-Element-2">\beta = 0.5</script>, more emphasis is placed on precision. This is called the <strong>F<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mn&gt;0.5&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-65" style="width: 1.232em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.998em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.701em 1001em 2.52em -999.997em); top: -2.163em; left: 0em;"><span class="mrow" id="MathJax-Span-66"><span class="msubsup" id="MathJax-Span-67"><span style="display: inline-block; position: relative; width: 0.998em; height: 0px;"><span style="position: absolute; clip: rect(3.809em 1000em 4.16em -999.997em); top: -3.978em; left: 0em;"><span class="mi" id="MathJax-Span-68"></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; top: -3.803em; left: 0em;"><span class="texatom" id="MathJax-Span-69"><span class="mrow" id="MathJax-Span-70"><span class="mn" id="MathJax-Span-71" style="font-size: 70.7%; font-family: MathJax_Main;">0.5</span></span></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.169em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi></mi><mrow class="MJX-TeXAtom-ORD"><mn>0.5</mn></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-3">_{0.5}</script> score</strong> (or F-score for simplicity).</p>
 <p>Looking at the distribution of classes (those who make at most <span>$</span>50,000, and those who make more), it's clear most individuals do not make more than <span>$</span>50,000. This can greatly affect <strong>accuracy</strong>, since we could simply say <em>"this person does not make more than <span>$</span>50,000"</em> and generally be right, without ever looking at the data! Making such a statement would be called <strong>naive</strong>, since we have not considered any information to substantiate the claim. It is always important to consider the <em>naive prediction</em> for your data, to help establish a benchmark for whether a model is performing well. That been said, using that prediction would be pointless: If we predicted all people made less than <span>$</span>50,000, <em>CharityML</em> would identify no one as donors.</p>
-<h4 id="Note:-Recap-of-accuracy,-precision,-recall">Note: Recap of accuracy, precision, recall<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Note:-Recap-of-accuracy,-precision,-recall">¶</a></h4><p><strong> Accuracy </strong> measures how often the classifier makes the correct prediction. It’s the ratio of the number of correct predictions to the total number of predictions (the number of test data points).</p>
+<h4 id="Note:-Recap-of-accuracy,-precision,-recall">Note: Recap of accuracy, precision, recall<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Note:-Recap-of-accuracy,-precision,-recall">¶</a></h4><p><strong> Accuracy </strong> measures how often the classifier makes the correct prediction. It’s the ratio of the number of correct predictions to the total number of predictions (the number of test data points).</p>
 <p><strong> Precision </strong> tells us what proportion of messages we classified as spam, actually were spam.
 It is a ratio of true positives(words classified as spam, and which are actually spam) to all positives(all words classified as spam, irrespective of whether that was the correct classificatio), in other words it is the ratio of</p>
 <p><code>[True Positives/(True Positives + False Positives)]</code></p>
@@ -12660,7 +12660,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-1---Naive-Predictor-Performace">Question 1 - Naive Predictor Performace<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-1---Naive-Predictor-Performace">¶</a></h3><ul>
+<h3 id="Question-1---Naive-Predictor-Performace">Question 1 - Naive Predictor Performace<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-1---Naive-Predictor-Performace">¶</a></h3><ul>
 <li>If we chose a model that always predicted an individual made more than $50,000, what would  that model's accuracy and F-score be on this dataset? You must use the code cell below and assign your results to <code>'accuracy'</code> and <code>'fscore'</code> to be used later.</li>
 </ul>
 <p><strong> Please note </strong> that the the purpose of generating a naive predictor is simply to show what a base model without any intelligence would look like. In the real world, ideally your base model would be either the results of a previous model or could be based on a research paper upon which you are looking to improve. When there is no benchmark model set, getting a result better than random choice is a place you could start from.</p>
@@ -12727,7 +12727,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Supervised-Learning-Models">Supervised Learning Models<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Supervised-Learning-Models">¶</a></h3><p><strong>The following are some of the supervised learning models that are currently available in</strong> <a href="http://scikit-learn.org/stable/supervised_learning.html"><code>scikit-learn</code></a> <strong>that you may choose from:</strong></p>
+<h3 id="Supervised-Learning-Models">Supervised Learning Models<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Supervised-Learning-Models">¶</a></h3><p><strong>The following are some of the supervised learning models that are currently available in</strong> <a href="http://scikit-learn.org/stable/supervised_learning.html"><code>scikit-learn</code></a> <strong>that you may choose from:</strong></p>
 <ul>
 <li>Gaussian Naive Bayes (GaussianNB)</li>
 <li>Decision Trees</li>
@@ -12745,7 +12745,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-2---Model-Application">Question 2 - Model Application<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-2---Model-Application">¶</a></h3><p>List three of the supervised learning models above that are appropriate for this problem that you will test on the census data. For each model chosen</p>
+<h3 id="Question-2---Model-Application">Question 2 - Model Application<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-2---Model-Application">¶</a></h3><p>List three of the supervised learning models above that are appropriate for this problem that you will test on the census data. For each model chosen</p>
 <ul>
 <li>Describe one real-world application in industry where the model can be applied. </li>
 <li>What are the strengths of the model; when does it perform well?</li>
@@ -12763,7 +12763,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<h4 id="SVM---Support-Vector-Machine.">SVM - Support Vector Machine.<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#SVM---Support-Vector-Machine.">¶</a></h4><p><i>Application</i></p><p>SVM models are being used in bioinformatics:<br></p>
+<h4 id="SVM---Support-Vector-Machine.">SVM - Support Vector Machine.<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#SVM---Support-Vector-Machine.">¶</a></h4><p><i>Application</i></p><p>SVM models are being used in bioinformatics:<br></p>
 <ul>
 <li>Support vector machine classification and validation of cancer tissue samples using microarray expression data: <a href="https://www.ncbi.nlm.nih.gov/pubmed/11120680">https://www.ncbi.nlm.nih.gov/pubmed/11120680</a></li>
 </ul>
@@ -12796,7 +12796,7 @@ These experiments can be focused on evaluating each gene in a single environment
 </ol>
 <p><i>What makes model a good candidate for the problem.</i></p><p>The data set is high dimensional - 103 features- and is not linearly separable. We would need to transform fetaure space to introduce non-linear features in order to produce separating hyperplane by a linear model. SVM with kernels is a suitable model to apply to high-dimensional data set.
 Given a size of the training dataset, cost of computing resources - RAM, CPU time - does not prohibit us from using SVM as a model.</p>
-<h4 id="Random-Forest">Random Forest<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Random-Forest">¶</a></h4><p><i>Application</i></p><ul>
+<h4 id="Random-Forest">Random Forest<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Random-Forest">¶</a></h4><p><i>Application</i></p><ul>
 <li>Random Forest Algorithm for the Classification of Neuroimaging Data in Alzheimer's Disease: A Systematic Review. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5635046/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5635046/</a></li>
 </ul>
 <blockquote><p>Mild cognitive impairment (MCI) is an intermediate state between healthy aging and AD, which is not severe enough to interfere with daily life. Although not all MCI subjects develop to AD and they remain cognitively stable for many years, the incidence of progression is evaluated between 10 and 15% per year (Palmqvist et al., 2012). There is no generally accepted cure for AD, but several treatments exist for delaying its course. For this reason, it is extremely important to early detect the MCI subjects that are at imminent risk of conversion to AD.</p>
@@ -12824,7 +12824,7 @@ Given a size of the training dataset, cost of computing resources - RAM, CPU tim
 <li>Data set is high dimensional and not linear separable. The Random Forest is capable of modelling non-linear data and does not require transformation of feature space.</li>
 <li>Speed of training.</li>
 </ol>
-<h4 id="Gradient-Boosting">Gradient Boosting<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Gradient-Boosting">¶</a></h4><p>Gradient Boosting builds an ensemble of classifiers by sequentially adding predictors, where next predictor corrects its predecessor.</p>
+<h4 id="Gradient-Boosting">Gradient Boosting<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Gradient-Boosting">¶</a></h4><p>Gradient Boosting builds an ensemble of classifiers by sequentially adding predictors, where next predictor corrects its predecessor.</p>
 <p><i>Application</i></p><p>While I have not found references for real-world applications using Gradient Boosting classifier, this algorithm can be used for the problems where SVM and Random Forest classifiers are being used.</p>
 <p><i>Model strengths</i></p><ol>
 <li>Provides predictive accuracy comparable to the best that can be achieved with the training data set.</li>
@@ -12850,7 +12850,7 @@ Given a size of the training dataset, cost of computing resources - RAM, CPU tim
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation---Creating-a-Training-and-Predicting-Pipeline">Implementation - Creating a Training and Predicting Pipeline<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Implementation---Creating-a-Training-and-Predicting-Pipeline">¶</a></h3><p>To properly evaluate the performance of each model you've chosen, it's important that you create a training and predicting pipeline that allows you to quickly and effectively train models using various sizes of training data and perform predictions on the testing data. Your implementation here will be used in the following section.
+<h3 id="Implementation---Creating-a-Training-and-Predicting-Pipeline">Implementation - Creating a Training and Predicting Pipeline<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Implementation---Creating-a-Training-and-Predicting-Pipeline">¶</a></h3><p>To properly evaluate the performance of each model you've chosen, it's important that you create a training and predicting pipeline that allows you to quickly and effectively train models using various sizes of training data and perform predictions on the testing data. Your implementation here will be used in the following section.
 In the code block below, you will need to implement the following:</p>
 <ul>
 <li>Import <code>fbeta_score</code> and <code>accuracy_score</code> from <a href="http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics"><code>sklearn.metrics</code></a>.</li>
@@ -12937,7 +12937,7 @@ In the code block below, you will need to implement the following:</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation:-Initial-Model-Evaluation">Implementation: Initial Model Evaluation<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Implementation:-Initial-Model-Evaluation">¶</a></h3><p>In the code cell, you will need to implement the following:</p>
+<h3 id="Implementation:-Initial-Model-Evaluation">Implementation: Initial Model Evaluation<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Implementation:-Initial-Model-Evaluation">¶</a></h3><p>In the code cell, you will need to implement the following:</p>
 <ul>
 <li>Import the three supervised learning models you've discussed in the previous section.</li>
 <li>Initialize the three models and store them in <code>'clf_A'</code>, <code>'clf_B'</code>, and <code>'clf_C'</code>.<ul>
@@ -13068,7 +13068,7 @@ GradientBoostingClassifier
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h2 id="Improving-Results">Improving Results<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Improving-Results">¶</a></h2><p>In this final section, you will choose from the three supervised learning models the <em>best</em> model to use on the student data. You will then perform a grid search optimization for the model over the entire training set (<code>X_train</code> and <code>y_train</code>) by tuning at least one parameter to improve upon the untuned model's F-score.</p>
+<h2 id="Improving-Results">Improving Results<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Improving-Results">¶</a></h2><p>In this final section, you will choose from the three supervised learning models the <em>best</em> model to use on the student data. You will then perform a grid search optimization for the model over the entire training set (<code>X_train</code> and <code>y_train</code>) by tuning at least one parameter to improve upon the untuned model's F-score.</p>
 
 </div>
 </div>
@@ -13077,7 +13077,7 @@ GradientBoostingClassifier
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-3---Choosing-the-Best-Model">Question 3 - Choosing the Best Model<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-3---Choosing-the-Best-Model">¶</a></h3><ul>
+<h3 id="Question-3---Choosing-the-Best-Model">Question 3 - Choosing the Best Model<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-3---Choosing-the-Best-Model">¶</a></h3><ul>
 <li>Based on the evaluation you performed earlier, in one to two paragraphs, explain to <em>CharityML</em> which of the three models you believe to be most appropriate for the task of identifying individuals that make more than <span>$</span>50,000. </li>
 </ul>
 <p><strong> HINT: </strong> 
@@ -13118,7 +13118,7 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-4---Describing-the-Model-in-Layman&#39;s-Terms">Question 4 - Describing the Model in Layman's Terms<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-4---Describing-the-Model-in-Layman&#39;s-Terms">¶</a></h3><ul>
+<h3 id="Question-4---Describing-the-Model-in-Layman&#39;s-Terms">Question 4 - Describing the Model in Layman's Terms<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-4---Describing-the-Model-in-Layman&#39;s-Terms">¶</a></h3><ul>
 <li>In one to two paragraphs, explain to <em>CharityML</em>, in layman's terms, how the final model chosen is supposed to work. Be sure that you are describing the major qualities of the model, such as how the model is trained and how the model makes a prediction. Avoid using advanced mathematical jargon, such as describing equations.</li>
 </ul>
 <p><strong> HINT: </strong></p>
@@ -13144,7 +13144,7 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation:-Model-Tuning">Implementation: Model Tuning<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Implementation:-Model-Tuning">¶</a></h3><p>Fine tune the chosen model. Use grid search (<code>GridSearchCV</code>) with at least one important parameter tuned with at least 3 different values. You will need to use the entire training set for this. In the code cell below, you will need to implement the following:</p>
+<h3 id="Implementation:-Model-Tuning">Implementation: Model Tuning<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Implementation:-Model-Tuning">¶</a></h3><p>Fine tune the chosen model. Use grid search (<code>GridSearchCV</code>) with at least one important parameter tuned with at least 3 different values. You will need to use the entire training set for this. In the code cell below, you will need to implement the following:</p>
 <ul>
 <li>Import <a href="http://scikit-learn.org/0.17/modules/generated/sklearn.grid_search.GridSearchCV.html"><code>sklearn.grid_search.GridSearchCV</code></a> and <a href="http://scikit-learn.org/stable/modules/generated/sklearn.metrics.make_scorer.html"><code>sklearn.metrics.make_scorer</code></a>.</li>
 <li>Initialize the classifier you've chosen and store it in <code>clf</code>.<ul>
@@ -13169,7 +13169,7 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Model-tuning-steps">Model tuning steps<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Model-tuning-steps">¶</a></h4><p>In the following cells we will tune Gradient Boosted model to determine following model's parameters:</p>
+<h4 id="Model-tuning-steps">Model tuning steps<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Model-tuning-steps">¶</a></h4><p>In the following cells we will tune Gradient Boosted model to determine following model's parameters:</p>
 <ol>
 <li>Number of learners / estimators.</li>
 <li>Max depth of a tree.</li>
@@ -13229,7 +13229,7 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Model-Baseline-estimate">Model Baseline estimate<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Model-Baseline-estimate">¶</a></h4><ul>
+<h4 id="Model-Baseline-estimate">Model Baseline estimate<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Model-Baseline-estimate">¶</a></h4><ul>
 <li>Estimate scores computed on training data set.</li>
 <li>We need to improve model's recall score: 0.618</li>
 </ul>
@@ -13291,7 +13291,7 @@ AUC score 0.923
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Select-number-of-estimators-for-specified-learning-rate.">Select number of estimators for specified learning rate.<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Select-number-of-estimators-for-specified-learning-rate.">¶</a></h4><ul>
+<h4 id="Select-number-of-estimators-for-specified-learning-rate.">Select number of estimators for specified learning rate.<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Select-number-of-estimators-for-specified-learning-rate.">¶</a></h4><ul>
 <li>Number of estimators for 0.1 learning rate is 120 - we will try learning rate of 0.2 to reduce number of estimators.</li>
 </ul>
 
@@ -14019,7 +14019,7 @@ Recall: 0.665
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Model-tuning-summary">Model tuning summary<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Model-tuning-summary">¶</a></h4><ol>
+<h4 id="Model-tuning-summary">Model tuning summary<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Model-tuning-summary">¶</a></h4><ol>
 <li><p>We will use <code>clf_1200</code> as our best model with following parameters:</p>
 <ul>
 <li>learning_rate=0.01,</li>
@@ -14044,7 +14044,7 @@ Recall: 0.665
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-5---Final-Model-Evaluation">Question 5 - Final Model Evaluation<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-5---Final-Model-Evaluation">¶</a></h3><ul>
+<h3 id="Question-5---Final-Model-Evaluation">Question 5 - Final Model Evaluation<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-5---Final-Model-Evaluation">¶</a></h3><ul>
 <li>What is your optimized model's accuracy and F-score on the testing data? </li>
 <li>Are these scores better or worse than the unoptimized model? </li>
 <li>How do the results from your optimized model compare to the naive predictor benchmarks you found earlier in <strong>Question 1</strong>?_  </li>
@@ -14058,7 +14058,7 @@ Recall: 0.665
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Results:">Results:<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Results:">¶</a></h4><table>
+<h4 id="Results:">Results:<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Results:">¶</a></h4><table>
 <thead><tr>
 <th style="text-align:center">Metric</th>
 <th style="text-align:center">Unoptimized Model</th>
@@ -14103,7 +14103,7 @@ While performance gain for F-score is only 1%, it is a result of improvement in 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h2 id="Feature-Importance">Feature Importance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Feature-Importance">¶</a></h2><p>An important task when performing supervised learning on a dataset like the census data we study here is determining which features provide the most predictive power. By focusing on the relationship between only a few crucial features and the target label we simplify our understanding of the phenomenon, which is most always a useful thing to do. In the case of this project, that means we wish to identify a small number of features that most strongly predict whether an individual makes at most or more than <span>$</span>50,000.</p>
+<h2 id="Feature-Importance">Feature Importance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Feature-Importance">¶</a></h2><p>An important task when performing supervised learning on a dataset like the census data we study here is determining which features provide the most predictive power. By focusing on the relationship between only a few crucial features and the target label we simplify our understanding of the phenomenon, which is most always a useful thing to do. In the case of this project, that means we wish to identify a small number of features that most strongly predict whether an individual makes at most or more than <span>$</span>50,000.</p>
 <p>Choose a scikit-learn classifier (e.g., adaboost, random forests) that has a <code>feature_importance_</code> attribute, which is a function that ranks the importance of features according to the chosen classifier.  In the next python cell fit this classifier to training set and use this attribute to determine the top 5 most important features for the census dataset.</p>
 
 </div>
@@ -14113,7 +14113,7 @@ While performance gain for F-score is only 1%, it is a result of improvement in 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-6---Feature-Relevance-Observation">Question 6 - Feature Relevance Observation<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-6---Feature-Relevance-Observation">¶</a></h3><p>When <strong>Exploring the Data</strong>, it was shown there are thirteen available features for each individual on record in the census data. Of these thirteen records, which five features do you believe to be most important for prediction, and in what order would you rank them and why?</p>
+<h3 id="Question-6---Feature-Relevance-Observation">Question 6 - Feature Relevance Observation<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-6---Feature-Relevance-Observation">¶</a></h3><p>When <strong>Exploring the Data</strong>, it was shown there are thirteen available features for each individual on record in the census data. Of these thirteen records, which five features do you believe to be most important for prediction, and in what order would you rank them and why?</p>
 
 </div>
 </div>
@@ -14204,7 +14204,7 @@ race            -&gt; 0.006
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Implementation---Extracting-Feature-Importance">Implementation - Extracting Feature Importance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Implementation---Extracting-Feature-Importance">¶</a></h3><p>Choose a <code>scikit-learn</code> supervised learning algorithm that has a <code>feature_importance_</code> attribute availble for it. This attribute is a function that ranks the importance of each feature when making predictions based on the chosen algorithm.</p>
+<h3 id="Implementation---Extracting-Feature-Importance">Implementation - Extracting Feature Importance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Implementation---Extracting-Feature-Importance">¶</a></h3><p>Choose a <code>scikit-learn</code> supervised learning algorithm that has a <code>feature_importance_</code> attribute availble for it. This attribute is a function that ranks the importance of each feature when making predictions based on the chosen algorithm.</p>
 <p>In the code cell below, you will need to implement the following:</p>
 <ul>
 <li>Import a supervised learning model from sklearn if it is different from the three used earlier.</li>
@@ -14274,7 +14274,7 @@ race            -&gt; 0.006
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-7---Extracting-Feature-Importance">Question 7 - Extracting Feature Importance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-7---Extracting-Feature-Importance">¶</a></h3><p>Observe the visualization created above which displays the five most relevant features for predicting if an individual makes at most or above <span>$</span>50,000.</p>
+<h3 id="Question-7---Extracting-Feature-Importance">Question 7 - Extracting Feature Importance<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-7---Extracting-Feature-Importance">¶</a></h3><p>Observe the visualization created above which displays the five most relevant features for predicting if an individual makes at most or above <span>$</span>50,000.</p>
 <ul>
 <li>How do these five features compare to the five features you discussed in <strong>Question 6</strong>?</li>
 <li>If you were close to the same answer, how does this visualization confirm your thoughts? </li>
@@ -14300,7 +14300,7 @@ race            -&gt; 0.006
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Feature-Selection">Feature Selection<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Feature-Selection">¶</a></h3><p>How does a model perform if we only use a subset of all the available features in the data? With less features required to train, the expectation is that training and prediction time is much lower — at the cost of performance metrics. From the visualization above, we see that the top five most important features contribute more than half of the importance of <strong>all</strong> features present in the data. This hints that we can attempt to <em>reduce the feature space</em> and simplify the information required for the model to learn. The code cell below will use the same optimized model you found earlier, and train it on the same training set <em>with only the top five important features</em>.</p>
+<h3 id="Feature-Selection">Feature Selection<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Feature-Selection">¶</a></h3><p>How does a model perform if we only use a subset of all the available features in the data? With less features required to train, the expectation is that training and prediction time is much lower — at the cost of performance metrics. From the visualization above, we see that the top five most important features contribute more than half of the importance of <strong>all</strong> features present in the data. This hints that we can attempt to <em>reduce the feature space</em> and simplify the information required for the model to learn. The code cell below will use the same optimized model you found earlier, and train it on the same training set <em>with only the top five important features</em>.</p>
 
 </div>
 </div>
@@ -14374,7 +14374,7 @@ R on testing data: 0.4911
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-8---Effects-of-Feature-Selection">Question 8 - Effects of Feature Selection<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors-bench%20(2).html#Question-8---Effects-of-Feature-Selection">¶</a></h3><ul>
+<h3 id="Question-8---Effects-of-Feature-Selection">Question 8 - Effects of Feature Selection<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Question-8---Effects-of-Feature-Selection">¶</a></h3><ul>
 <li>How does the final model's F-score and accuracy score on the reduced data using only five features compare to those same scores when all features are used?</li>
 <li>If training time was a factor, would you consider using the reduced data as your training set?</li>
 </ul>
@@ -14390,6 +14390,19 @@ R on testing data: 0.4911
 <p>Model fit on data with just five features exhibits high bias.</p>
 <p>Model's recall score dropped 16% down to 50%. Yet precision score dropped by 1% only. This means that while model assigns more samples to the <code>false negative</code>category, it assigns less samples to the <code>false positive</code> category. Therefore we may infer that the model has lower variance due to noise reduction, and higher bias due to reduced hypotheses space.</p>
 <p>In this particular case, I would not consider using the reduced data set as a training set, because reduced training set does not have enough features to produce hypotheses needed to achieve sufficient F-score.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Resources">Resources<a class="anchor-link" href="file:///home/ayk/Downloads/finding_donors%20(1).html#Resources">¶</a></h3><ul>
+<li>"Learning From Data" Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin</li>
+<li>"The Elements Of Statistical Learning" Trevor Hastie, Robert Tibshirani, Jerome Friedman</li>
+<li>"Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow" Aurelien Geron</li>
+</ul>
 
 </div>
 </div>
