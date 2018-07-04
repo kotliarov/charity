@@ -61,7 +61,7 @@ def evaluate(results, accuracy, f1):
   
     # Create figure
     fig, ax = pl.subplots(2, 3, figsize = (11,7))
-
+    pl.tight_layout()
     # Constants
     bar_width = 0.3
     colors = ['#A00000','#00A0A0','#00A000']
